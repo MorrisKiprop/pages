@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SmartLoansKenya"
+        android:textAlignment="center"
+        android:textColor="#00FF0A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/calculationinstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the type of compoundment you want to calculate from the options below"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnAnnualCompoundment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annual Compoundment" />
+
+    <Button
+        android:id="@+id/btnSemiAnnualCompoundment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semi-Annual Compoundment" />
+
+    <Button
+        android:id="@+id/btnQuartelyCompoundment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quartely Compoundment" />
+
+    <Button
+        android:id="@+id/btnMonthlyCompoundment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly Compoundment" />
+
+</LinearLayout>
